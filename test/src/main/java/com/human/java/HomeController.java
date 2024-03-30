@@ -33,7 +33,7 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		// home.js로 리턴 -> 결과: 현재시각 나옴
+		// home.js로 리턴 -> 결과: 현재시각 나옴**
 		return "home";
 	}
 	

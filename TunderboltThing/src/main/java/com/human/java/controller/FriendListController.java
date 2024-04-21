@@ -35,8 +35,8 @@ public class FriendListController {
 		logger.info("친구 리스트 보기 : " + fList.toString());
 		
 		ModelAndView mv = new ModelAndView();
-		mv.setViewName("redirect:/getFriendList");
-		mv.addObject("friend", fList);
+		mv.setViewName("getFriendList");
+		mv.addObject("friendList", fList);
 		
 		return mv;
 	}

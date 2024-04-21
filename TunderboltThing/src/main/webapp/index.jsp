@@ -10,4 +10,4 @@
  	<a href="getFriendList.do">친구목록</a>
 </body>
 </html>
-<%-- <% response.setHeader("친구목록", "getFriendList.do"); %> --%>
+<%-- <% response.setHeader("친구목록", "getFriendList.do"); %>  --%>

@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class FriendListVO {
 
-	private int user_no;
+	private long use_no;
 	private String id;
 	private String pw;
 	private String nickname;
@@ -14,7 +14,7 @@ public class FriendListVO {
 	
 	@Override
 	public String toString() {
-		return "FriendListVO [user_no=" + user_no + ", id="+id+ ", pw=" + pw+", nickname="+ nickname
+		return "FriendListVO [use_no=" + use_no + ", id="+id+ ", pw=" + pw+", nickname="+ nickname
 				+ ", type=" + type + ", withdrawal=" + withdrawal + "]";
 	}
 	
